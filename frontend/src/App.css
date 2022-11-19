@@ -16,3 +16,11 @@
     width: 110%;
   }
 }
+
+.active{
+  border-bottom: 2px solid #608dfd !important;
+}
+
+.team-img{
+  cursor: pointer;
+}

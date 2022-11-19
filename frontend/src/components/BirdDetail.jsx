@@ -1,4 +1,4 @@
-export const About = (props) => {
+export const BirdDetail = (props) => {
   return (
     <div id="about">
       <div className="container">
@@ -9,7 +9,10 @@ export const About = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>About Us</h2>
+              <h2>Bird detail</h2>
+              <audio controls>
+                <source src="https://www.kozco.com/tech/LRMonoPhase4.wav" type="audio/ogg" />
+              </audio>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <h3>Why Choose Us?</h3>
               <div className="list-style">

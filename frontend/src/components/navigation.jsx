@@ -1,3 +1,5 @@
+import { Link, NavLink } from "react-router-dom";
+
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -9,15 +11,15 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {' '}
-            <span className="sr-only">Toggle navigation</span>{' '}
-            <span className="icon-bar"></span>{' '}
-            <span className="icon-bar"></span>{' '}
-            <span className="icon-bar"></span>{' '}
+            {" "}
+            <span className="sr-only">Toggle navigation</span>{" "}
+            <span className="icon-bar"></span>{" "}
+            <span className="icon-bar"></span>{" "}
+            <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <Link className="navbar-brand page-scroll" to="/">
             Bird Recognition
-          </a>{' '}
+          </Link>{" "}
         </div>
 
         <div
@@ -26,9 +28,12 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#team" className="page-scroll">
+              <NavLink
+                to="explore"
+                className={({ isActive }) => (isActive ? "active" : undefined) + ' noHover'}
+              >
                 Explore
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
