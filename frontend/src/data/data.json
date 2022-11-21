@@ -1,203 +1,351 @@
 {
-  "Header": {
+  "header": {
     "title": "We are a Landing Page",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
-  "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
-  },
-  "Gallery": [
+  "birds": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "class": "0se",
+      "img": "/img/birds/se.jpeg",
+      "name": "Sẻ",
+      "description": "Chim sẻ tên tiếng Anh là Passer Domesticus (Được đặt tên bởi nhà động vật học tìm ra loài chim này), là một loài chim thuộc họ Sẻ (Passeridae). Là một loài chim phổ biến ở Việt Nam và nhiều nơi trên thế giới. Chúng là một loài chim có kích thước khá nhỏ và chúng thường sống tại gần con người, đặc biệt là vùng có nhiều nhà máy xay xát, vì đây là nơi cung cấp nhiều thức ăn cho chúng.\n\n  Chúng thông thường sẽ sống cùng nhau theo bầy đàn với số lượng lớn, để cùng nhau sinh sản và tìm kiếm thức ăn cũng như bảo vệ nhau khỏi những mối nguy hiểm. Hiện nay, có nhiều người đang có sở thích nuôi giống chim này để làm cảnh. Tuy nhiên việc nuôi giống chim này cũng mất khá nhiều thời gian để chăm sóc và nuôi dưỡng.",
+      "audio": "/audio/se0.mp3"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "class": "1hoang-yen",
+      "img": "/img/birds/hoang-yen.jpeg",
+      "name": "Hoàng yến",
+      "description": "Chim Hoàng Yến có tên khoa học là Serinus canaria domestica, tên tiếng Anh thường gọi là Canary. Đây là loài chim được con người thuần hóa từ loài hoang dã, có nguồn gốc tại quần đảo Canary. Chúng được phát hiện lần đầu là vào thế kỷ 17, khi mà một toán thủy thủ người Tây Ban Nha đi chinh phục các quần đảo xung quanh đảo Canary. Những chú chim Hoàng Yến đầu tiên đã theo chân những người thủy thủ đó đến đất liền và được bán trong các cửa hàng thú cảnh. Nhờ đó mà chúng được nhiều người biết đến và ưa chuộng như hiện nay. Ở nước ta, chim Hoàng Yến chủ yếu được mua về thông qua con đường nhập khẩu từ các nước như Nhật Bản, Trung Quốc, Pháp,...",
+      "audio": "/audio/hoang-yen0.mp3"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "class": "2hoa-mi",
+      "img": "/img/birds/hoa-mi.jpeg",
+      "name": "Họa mi",
+      "description": "Chim Họa mi có tên khoa học là Garrulax canorus là một loài chim trong họ Leiothrichidae. Tên gọi Họa mi của loài chim này thể hiện đặc điểm nổi bật của chúng chính là quầng lông sáng màu quanh mắt giống như được vẽ lên vậy. Hoa mi có nguồn gốc từ lục địa Châu Á, bao gồm Trung Quốc, Lào, miền bắc và miền trung Việt Nam…. Những nơi có điều kiện tự nhiên là rừng rậm cận nhiệt đới, đồi núi cao và nhiệt độ thấp, khí hậu lạnh ở các tỉnh phía Bắc như: Lai Châu, Lạng Sơn, Sơn La, Móng Cái,… là nơi thích hợp để loài chim này cư trú và phát triển. Chúng thường kiếm ăn trên mặt đất giữa các lớp lá, ăn côn trùng và trái cây. Chúng có thể sống từ 12-17 năm trong điều kiện nuôi nhốt.",
+      "audio": "/audio/hoa-mi0.mp3"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "class": "3tri",
+      "img": "/img/birds/tri.jpeg",
+      "name": "Trĩ",
+      "description": "Chim Trĩ đỏ khoang cổ là loài chim thuộc Họ Trĩ (Phasianidae) nằm trong Sách đỏ Việt Nam. Chủ yếu sống tại các khu vực miền bắc Việt Nam (Lạng Sơn, Quảng Ninh …), rừng quốc gia Cát Tiên (Lâm Đồng), khu bảo tồn U Minh Thượng (Kiên Giang), khu bảo tồn thiên nhiên Phong Điền (Thừa thiên Huế) và phía Đông Nam Trung Quốc. Chim Trĩ đỏ khoang cổ tên khoa học là Phasianus colchicus Linnaeus. Khi trưởng thành con đực có màu lông sáng, đầu và cổ con đực có màu xanh nhạt với 1 khoang trắng rõ rệt xung quanh vùng cổ, giữa ngực màu đỏ tía đậm, các vùng bên cạnh có màu sáng hơn, hai bên sườn có màu vàng nhạt (vàng tái) với các vết đen trên diện rộng, lông đuôi có màu vàng oliu (nâu vàng nhạt) với các sọc ngang rộng màu đen. Trong khi đó con cái có nhiều vết đốm rõ rệt, các lông cổ màu nâu và đen kẻ sọc quanh chỏm đầu, với các đường viền có màu hạt dẻ, phần lông phía sau lưng và ngực có màu lốm đốm, phần giữa có màu nâu đen, vùng bụng có màu nâu nhạt. Các lông đuôi rất rõ rệt với các đường gợn sóng dày khít có màu vàng sẫm và đen. Chim trĩ non rất khó phân biệt trống mái, đến hơn 3 tháng mới phân biệt được dựa vào màu lông. Chim Trĩ có sức sống, sức đề kháng mạnh mẽ đối với bệnh tật, sống được ở nhiệt độ từ - 320C đến 460C. Trĩ đỏ lớn rất nhanh và có khả năng đề kháng rất cao nên ít mắc bệnh. Ngoài 7 tháng là trĩ mái bắt đầu đẻ trứng, mỗi con mái trưởng thành trong một năm có khả năng đẻ 90 – 120 quả trứng tùy theo điều kiện chăm sóc. Nuôi nhốt trong điều kiện thiếu các phương tiện ấp trứng nhân tạo thì khó thành công vì chim trĩ đỏ không có bản năng ấp trứng. Những hộ nuôi ít thì thường cho gà ấp hộ, tỉ lệ ấp nở thành công tới hơn 75%. Nếu được cung cấp thức ăn đầy đủ, thêm côn trùng và điều kiện chiếu sáng nhân tạo mỗi con trĩ đỏ mái có thể đẻ đến hai trứng mỗi ngày. Nếu dùng máy ấp nhân tạo với các thông số độ ẩm, nhiệt độ phù hợp thì có thể cho tỉ lệ nở 90 – 95 %. Tại miền Trung, chim Trĩ sinh sản kéo dài từ tháng 01 đến tháng 09 trong năm.",
+      "audio": "/audio/tri0.mp3"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "class": "4trich-co",
+      "img": "/img/birds/trich-co.jpeg",
+      "name": "Trích cồ",
+      "description": "Chim trích cồ (Danh pháp khoa học: Porphyrio poliocephalus) là loài chim trong họ Rallidae phân bố ở phía Nam Trung Quốc và Đông Nam Á. Đây loài chim quý hiếm, có màu sắc đẹp, thẩm mỹ, được nhiều người yêu thích. Chim dễ nuôi, dễ sinh sản, khi nuôi quen thì thả lang như gà. Chim trích cồ trước mắt và xung quanh mắt trắng phớt xám. Đỉnh đầu và hai bên đầu xám thẫm. Phần sau cổ, hai bên cổ và lưng xanh xám. Cánh xám lẫn xanh lục. Phía trước má xám phớt lục. Phía trước cổ và diều lục xám. Bụng, sườn, đùi đen phớt xanh. Đuôi đen hơi phớt xanh. Dưới đuôi trắng.",
+      "audio": "/audio/trich-co0.mp3"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "class": "5hoet-lua",
+      "img": "/img/birds/hoet-lua.jpeg",
+      "name": "Hoét lửa",
+      "description": "Các loài chim trong họ Hoét là chim có kích thước từ nhỏ tới trung bình, hình dạng mập mạp, lông mềm, sinh sống trong khu vực đồng rừng và thường kiếm ăn trên mặt đất hay ăn các loại quả của các loài trong họ Hoa hồng (tầm xuân, tường vi v.v). Phần lớn các loài có màu lông xám hay nâu, thường với phần lông bụng lốm đốm. Chúng là chim ăn sâu bọ, nhưng phần lớn các loài cũng ăn cả giun, sên và quả. Nhiều loài sống cố định trong khu vực có khí hậu ấm áp, trong khi một số loài di cư tới các vĩ độ cao hơn trong mùa hè, thường phải vượt qua những khoảng cách đáng kể. Tổ của chúng hình chén, đôi khi được lót bằng bùn khô. Chúng đẻ 2-5 trứng đốm vỏ, đôi khi đẻ tới trên 2 lượt mỗi năm. Cả chim bố lẫn chim mẹ đều góp phần nuôi dưỡng chim con. Giọng hót của một số loài, bao gồm các thành viên thuộc các chi Catharus, Myadestes và Turdus, được coi là thuộc nhóm hay nhất trong thế giới các loài chim.",
+      "audio": "/audio/hoet-lua0.mp3"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "class": "6le-le",
+      "img": "/img/birds/le-le.jpeg",
+      "name": "Le le",
+      "description": "Con le le là loài chim có mỏ dài, màu xám, đầu và chân cũng dài. Lông trên đầu, cổ, bụng của chim le le có màu vàng sẫm như da bò, chỏm lông trên đầu sẫm màu hơn. Bên cạnh đó, vùng lưng và hai cánh của chúng cũng có màu sẫm pha với các mảng màu nâu hạt dẻ trên cánh và ở phần đuôi. Những con chim le le thường tụ tập lại một chỗ phát ra những tiếng rất ồn ào. Tiếng của le le hơi khò khè, rất dễ nhận biết. Le le thường làm tổ ở trong các hốc cây. Thức ăn chính là các loại hạt và các loài thực vật khác.",
+      "audio": "/audio/le-le0.mp3"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "class": "7sao-nau",
+      "img": "/img/birds/sao-nau.jpeg",
+      "name": "Sáo nâu",
+      "description": "Chim sáo nâu, chúng thuộc  họ chim Sáo, nguồn gốc của chúng đến từ châu Á. Là một loài chim ăn tạp và rất dể nuôi, sáo nâu chúng thích nghi rất tốt với môi trường sống ở đô thị dể gần guổi với con người, chúng được những người nuôi chim cảnh yêu thích bởi vì bản năng chúng có thể nói được tiếng người, để chúng biết nói thì bạn cần chăm sóc và nuôi dưỡng chúng đúng quy trình, dạy chúng đúng cách là chúng sẽ biết nói chuyện. Về vẽ bề ngoài của sáo nâu chúng có kích thước to bằng một con chim Cu gáy hoặc 1 con chim cu ngối. Được khoát lên cơ thể một màu nâu xẫm, đỉnh đầu là màu đen đậm và nhạt dần xuống cổ cho đến thân là màu nâu. Cái mỏ và hai bên viền mắt có màu vàng nghệ, chân màu vàng. Phần đuôi có xen lẫn màu trắng đen, cách rìa ngoài có vài cách là màu trắng, phần còn lại là màu đen và nâu. Chim trống có thân hình to con, đầu to, chân to hơn con chim mái, về tiếng hót thì âm thanh trong trẽo, líu lo, chúng rất thích hót, nếu nhà bạn có 1 con chim sáo thì chúng líu lo suốt ngày.",
+      "audio": "/audio/sao-nau0.mp3"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "class": "8cu-dat",
+      "img": "/img/birds/cu-dat.jpeg",
+      "name": "Cu đất",
+      "description": "Cu đất (danh pháp khoa học: Streptopelia chinensis) là một loài chim trong họ Columbidae. Chúng là loài chim bồ câu khá quen thuộc với nông thôn Việt Nam. Loài chim Cu đất sống chủ yếu tại các vùng nhiệt đới như: từ phía nam Asia đến Pakistan, phía đông India và Sri Lanka đến phía nam China và Southeast Asia, Việt Nam, Lào, Cambodia, Thái Lan, Philippines, Trung Quốc, Mianma, Malaysia, Xumaka và một số nước ở châu Âu, châu Mỹ. Chim Cu đất là loài chim cỡ trung bình có trọng lượng khoảng từ 180-200g. Lông ở phần đầu, gáy và mặt bụng màu nâu nhạt hơi tím hồng; đỉnh và hai bên đầu phớt xám; cằm và họng trắng nhạt; đùi, bụng và dưới đuôi màu nhạt hơn; lông hai bên phần dưới cổ và lưng trên đen điểm tròn trắng ở mút; mặt lưng nâu, các lông có viền hung nhạt rất hẹp. Lông bao phủ cánh phía trong nâu nhạt, thân lông đen nhạt; lông phía ngoài xám tro. Lông cánh nâu đen có viền xám rất hẹp. Lông đuôi giữa nâu sẫm, các lông hai bên chuyển dần sang đen với phần mút lông trắng.",
+      "audio": "/audio/cu-dat0.mp3"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "class": "9chich-choe",
+      "img": "/img/birds/chich-choe.jpeg",
+      "name": "Chích chòe",
+      "description": "Chích chòe là tên gọi chung để chỉ một số loài chim kích thước trung bình, ăn sâu bọ (một số loài còn ăn cả các loại quả mọng và các loại quả khác) trong các chi Copsychus sensu lato và Enicurus. Trước đây chúng được phân loại trong họ Hoét (Turdidae), nhưng hiện nay thông thường hay được coi là một phần của họ Đớp ruồi (Muscicapidae). Các loài chim này sinh sống trong các cánh rừng và vườn ở châu Phi và châu Á.",
+      "audio": "/audio/chich-choe0.mp3"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "class": "10cong-coc",
+      "img": "/img/birds/cong-coc.jpeg",
+      "name": "Cồng cộc",
+      "description": "Chim còng cọc là loài chim nước, sống theo sông, kinh , rạch , ao hồ ,đồng ngập nước. thức ăn chính là cá. Có nơi còn gọi là chim cốc, với bộ lông một màu đen xám tối, chân màn. Thật ra loài chim này không có gì là đẹp với màu sắc và dóc dáng, kể cả tiếng kêu cũng chẳng có âm điệu gì. Nhưng được nuôi làm cảnh là để nói lên sự cần cù chịu khó của nó, lúc nó lặn sâu trong nước để tìm mồi, và nhớ lại cảnh miền quê sông nước, đầy vẩy cá tôm. Hiện nay chim nầy chưa được giới chơi chim nuôi nhiều vì có nhiều nhược điểm. Sau 1 thời gian bơi lặn chim lại bay lên cây xòe cánh để phơi khô bộ lông , dù cho lông có chất nhờn bảo vệ không thắm. Chim còng cọc có biệt tài mà các loài chim khác không có được. Là khi nó lặn sâu dưới nước để bắt mồi, mắt nó có 1 lớp màng trắng che lại bảo vệ mắt, nhưng vẩn thấy được con mồi và mọi vật. Nó lặn trong nước và đuổi bắt con mồi rất tinh tường. Chim thường sống thành đàn, và cũng có khi sống lẻ loi vì môi trường không mấy thích hợp. như đồng hẹp, cá ít, phải phân tán tìm mồi.",
+      "audio": "/audio/cong-coc0.mp3"
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "class": "11ca-cuong",
+      "img": "/img/birds/ca-cuong.jpeg",
+      "name": "Cà cưỡng",
+      "description": "Sáo sậu, sáo cổ đen, cà cưỡng, cưỡng, cà cưởng hay cà cượng (Gracupica nigricollis) là một loài chim trong họ Sáo. Bộ lông của cà cưỡng là màu đen và trắng, với một lông cổ màu đen. Loài này được tìm thấy ở miền nam Trung Quốc và phần lớn lục địa Đông Nam Á, và đã được giới thiệu đến Đài Loan, Malaysia và Singapore. Môi trường sống của nó bao gồm đồng cỏ, rừng khô và các khu định cư của con người. Liên minh Bảo tồn Thiên nhiên Quốc tế (IUCN) đã đánh giá nó là loài ít quan tâm. Loài này được tìm thấy ở miền nam Trung Quốc từ Phúc Kiến đến Vân Nam, và phía nam đến Miến Điện, Lào, Campuchia, Việt Nam và Thái Lan. Một cá thể được ghi lại ở Brunei có thể là cá thể nuôi nhốt hoặc một loài lang thang. Cà cưỡng đã được du nhập vào Đài Loan, Malaysia và Singapore. Cà cưỡng sinh sống ở đồng cỏ, rừng khô, khu vực canh tác và khu định cư của con người, hầu hết xảy ra ở độ cao thấp, nhưng cũng lên đến 2.000 m (6.600 ft).",
+      "audio": "/audio/ca-cuong0.mp3"
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "class": "12co",
+      "img": "/img/birds/co.jpeg",
+      "name": "Cò",
+      "description": "Cò là tên gọi chung cho một số loài chim thuộc họ Hạc sinh sống tại nhiều khu vực trên thế giới, trong đó có vùng Đồng bằng Bắc Bộ và Tây Nam Bộ của Việt Nam. Các loài cò thường có xu hướng sống trong môi trường khô ráo hơn. Nó có liên quan chặt chẽ đến các loài diệc, cò thìa và nhiều loài chim nhiệt đới. Cò không có ống tiêu và không có khả năng phát ra âm thanh. Nhiều loài cò có lối sống khá tự do, chúng đang thường xuyên di cư từ những vùng đô thị đến vùng nông thôn, đồng quê. Cò ăn ếch, cá, côn trùng, giun đất nhỏ, một số loài chim nhỏ và động vật có vú. Đa số cò sống trong các khu vực trung tâm nhiệt đới, châu Á và châu Phi, nam Sahara, với tám và sáu giống loài tương ứng. Chỉ ba loài có mặt ở châu Mĩ: hạc gỗ, cò maguari và jabiru, đó là loài chim biết bay lớn nhất của châu Mỹ Hai loài cò trắng và đen, đến châu Âu và khu vực ôn đới ở Tây Á, trong khi một loài cò phương Đông, đến khu vực ôn đới phía Đông và một loài cò cổ đen, được tìm thấy ở Úc.",
+      "audio": "/audio/co0.mp3"
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "class": "13quoc",
+      "img": "/img/birds/quoc.jpeg",
+      "name": "Quốc",
+      "description": "Chim cuốc còn có tên gọi khác là chim quắc cũng có nơi viết là chim quốc. Nguồn gốc cái tên là dựa vào tiếng kêu của chúng. Về hình dáng, chim quốc được thiên nhiên bạn tặng một chiếc mỏ dài và sắc nhọn, cổ dài nhưng ngắn, gầy, trước ngực và cổ có túm lông màu trắng. Còn lại toàn bộ phần lông có màu xám tro và đuôi có màu nâu nhạt. Cuốc có đôi chân dài cò hương  giúp chúng có thể lẩn trốn kẻ thù một cách dễ dàng. Chính đôi chân này đã giúp chúng hàng ngày bền bỉ đi tìm kiếm thức ăn mà không thấy mệt mỏi. Thế nhưng mặc dù là loài chim có cánh nhưng sải cánh của chim quắc lại không ngắn và yếu. Mặc dù vẫn có thể bay lượn trên không trung, nhưng quãng đường không được xa. Chỉ có thể bay lập lờ trên mặt đất một đoạn nhỏ. Với đôi cánh yếu như vậy, chim cuốc gặp rất nhiều khó căn trong việc đậu trên các cành cây, mặc dù là cành cây không cao.",
+      "audio": "/audio/quoc0.mp3"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "class": "14hec-xoan",
+      "img": "/img/birds/hec-xoan.jpeg",
+      "name": "Héc xoan",
+      "description": "Đầu tháng 12 dương lịch là bắt đầu vào mùa bẫy loại chim héc đầu trắng, chúng có tập tính đi theo bầy đàn, khoảng vài chục đến vài trăm con, nghề bẫy héc đầu trắng này cho thu nhập rất cao, có ngày trúng đậm là hốt cả vài trăm con chim là chuyện bình thường, và xu hướng chim héc ngày nay là thường được giới chim cảnh yêu thích vì vẻ đẹp của chúng và có tiếng hót rất êm tai. Chim héc đầu trắng rất dể bẫy, chỉ cần lấy cuốc ra đào mặt đất cho bằng và xếp lên trên đó những hòn đá nhỏ khoảng nữa gang tay, và cho nước vào đó, xung quanh thì làm bờ chấn nước lại đừng cho nước chảy ra ngoài, và trang bị thêm loa phát tiếng chim héc xoan để dụ chúng đến, khi chim đến là cả đàn bay xuống đậu trên những tản đá đã đước sắp xếp trước đó và chúng sẽ uống nước.",
+      "audio": "/audio/hec-xoan0.mp3"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "class": "15hoet-den",
+      "img": "/img/birds/hoet-den.jpeg",
+      "name": "Hoét đen",
+      "description": "Chim Hoét đen hay Chim Hét đen (danh pháp khoa học: Turdus merula) là một loài thuộc họ Hét. Nó cũng được gọi là Chim hoét Âu-Á (đặc biệt tại Bắc Mỹ để phân biệt với loài Chim hét Tân thế giới không liên quan), hay đơn giản hơn là Chim hoét. Vùng phân bố gốc của nó là châu Âu, châu Á và Bắc Phi; nhờ hoạt động của con người, chim hét còn mở rộng vùng phân bố sang Úc và Tân Tây-lan. Loài này có một số phân loài trên phạm vi phân bố rộng lớn của nó; một vài trong số các phân loài châu Á đôi khi được coi là loài đầy đủ. Tùy thuộc vào vĩ độ, loài chim này phổ biến có thể là loài định cư, di trú một phần, hoặc di cư hoàn toàn. Chim trống của loài chỉ định, được tìm thấy trong phần lớn châu Âu, có bộ lông toàn màu đen trừ vòng xuyến mắt và mỏ màu vàng có giọng hót giàu âm điệu; chim mái trưởng thành và chim chưa trưởng thành có bộ lông chủ yếu màu nâu tối. Loài chim này sinh sản trong rừng và các khu vườn, chúng xây tổ hình chiếc tách, lót bằng bùn gọn gàng. Nó là loài ăn tạp, ăn một loạt các loài côn trùng, giun đất, quả mọng, trái cây. Cả chim trống và chim mái đều chiếm lãnh địa riêng ở nơi sinh sản, và có biểu hiện đe dọa rõ ràng với kẻ xâm phạm, nhưng chúng là loài thích giao du nhiều hơn trong quá trình di cư và tại các khu vực trú đông. Các cặp chim ở trong lãnh thổ của chúng quanh năm ở nơi có khí hậu ôn hòa đầy đủ. Loài chim phổ biến và dễ thấy này đã làm làm gia tăng một số tài liệu tham khảo văn học và văn hóa, thường xuyên liên quan đến tiếng hót của chúng.",
+      "audio": "/audio/hoet-den0.mp3"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "class": "16phuong-hoang-dat",
+      "img": "/img/birds/phuong-hoang-dat.jpeg",
+      "name": "Phượng hoàng đất",
+      "description": "Hồng hoàng, còn gọi là phượng hoàng đất có tên khoa học Buceros bicornis, là một trong những loài chim mỏ sừng lớn. Chúng có trọng lượng từ 2,5 - 4kg, chiều dài toàn cơ thể từ 95 - 122cm, sải cánh rộng tới 1,6m. Khi còn nhỏ lông chúng có màu xám và dần chuyển sang đen tuyền khi trưởng thành. Nửa thân sau và phần đuôi có màu trắng muốt, điểm thêm là một vành đen óng. Hồng hoàng được tìm thấy ở vùng đồng bằng, núi khí hậu nhiệt đới, cận nhiệt đới ở một số nước Đông Nam Á, Ấn Độ, Nam Trung Quốc.",
+      "audio": "/audio/phuong-hoang-dat0.mp3"
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "class": "17oanh",
+      "img": "/img/birds/oanh.jpeg",
+      "name": "Oanh",
+      "description": "Chim Oanh cổ đỏ là loài chim thuộc họ Muscicapidae và có tên khoa học là Calliope Calliope. Chúng loài một trong những loài chim nhỏ, sở hữu giọng hót cao, trong trẻo và cuốn hút. Bởi chúng có một giọng hót cuốn hút nên hiện nay loài chim này đang được rất nhiều người ưa chuộng và nuôi làm cảnh. Chim Oanh cổ đỏ là loài chim có kích thước khá nhỏ, tính cả chiều dài đuôi thì một con trường thành có kích thước dao động từ 12-15cm, cao khoảng 5-8cm. Chúng có một màu lông xám ở trên lưng, trắng nhạt ở phần bụng, vệt đen trắng ở phần dưới mắt và phần lông đỏ nổi bật ở phần cổ. Chúng có cái mỏ nhọn và ngắn khá giống với loài chim sẻ. Đặc biệt lông đuôi của chúng thường nhếch lên cao khi chạy nhảy.",
+      "audio": "/audio/oanh0.mp3"
     },
     {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "class": "18huyt-co",
+      "img": "/img/birds/huyt-co.jpeg",
+      "name": "Huýt cô",
+      "description": "Chim huýt cô còn được gọi bằng cái tên khác là chim nghệ ngực vàng, chúng xuất hiện phổ biến nhất ở các vùng Ấn Độ, Pakistan và Sri Lanka. Bên cạnh đó, một số quốc gia ở Đông Nam Á cũng có loài chim này như: Thái Lan, Mã Lai, Miến Điện, Việt Nam… Tại nước ta, có thể bắt gặp chúng sinh sống ở các vùng trung du, các vùng Nam Bộ. Chúng thường tập trung đông nhất ở những khu vực rừng rậm, nhiều đồng ruộng, vườn cây trái, những nơi có nguồn thức ăn dồi dào. Chim nghệ có tiếng hót khá lảnh lót, nhiều người ưa thích chúng này một phần vì “giọng ca” khá êm tai.",
+      "audio": "/audio/huyt-co0.mp3"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "class": "19khuou",
+      "img": "/img/birds/khuou.jpeg",
+      "name": "Khướu",
+      "description": "Chim Khướu có tên khoa học là Timaliidae, là loài động vật thuộc bộ Sẻ, thường sinh sống chủ yếu tại khu vực nhiệt đới thuộc các nước trong vùng Đông Nam Á, trong đó rất phổ biến tại Việt Nam. Hiện nay vẫn chưa thể rõ được là chúng xuất hiện ở nước ta từ bao giờ. Thế nhưng có một điều phải khẳng định, đó là chim Khướu vô cùng được ưa chuộng tại nước ta bởi nhiều người đam mê nuôi và chăm sóc. Chim Khướu có một cái mỏ dài, thuận tiện cho việc mổ, bắt mồi và hỗ trợ rất lớn cho việc hót của chúng. Kích thước của loài chim này ở mức trung bình, có một số loại có thể có kích thước lớn hơn một chút. Bộ lông mềm mại, dày dặn, thường có màu xanh, nâu, xám,... Màu sắc của lông phụ thuộc nhiều vào nơi mà chúng thường sinh sống. Đôi cánh to rộng cùng đôi chân chắc khỏe giúp chúng có thể bay lượn và đậu trên mặt đất dễ dàng. Đồng thời cũng hỗ trợ cho khả năng bắt mồi của chúng.",
+      "audio": "/audio/khuou0.mp3"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "class": "20trich-re",
+      "img": "/img/birds/trich-re.jpeg",
+      "name": "Trích ré",
+      "description": "Chim Trích ré có tên khoa học là Gallinula chloropus, đuôi có kích thước khá dài, thường xuất hiện trong vùng đất ngập nước.Về ngoại hình khá giống nhau  với sâm cầm, nhưng có mỏ màu đỏ và màu vàng,đặc biệt màu trắng phía sau lông với một miếng vá đen trung tâm.",
+      "audio": "/audio/trich-re0.mp3"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },{
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "class": "21chang-nghich",
+      "img": "/img/birds/chang-nghich.jpeg",
+      "name": "Chằng nghịch",
+      "description": "Chim chằng nghịch có tên khoa khoa học là Gallirallus striatus. Chằng nghịch được người dân gọi với cái tên khác là chim rẽ đất rẽ hoa. Đây là một loài gà nước được tìm thấy ởtiểu lục địa Ấn Độ, Pakistan, Sri Lanka và Đông Nam Á. Chim có mỏ đỏ dài, mắt và chân đen tuyền, mặt lưng nâu thẫm có nhiều vằn lượn sóng trắng; phần dưới lưng và lông cánh sơ cấp có nhiều chấm trắng, mỗi lông đều viền nâu hơi vàng.",
+      "audio": "/audio/chang-nghich0.mp3"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "class": "22mo-nhat",
+      "img": "/img/birds/mo-nhat.jpeg",
+      "name": "Mỏ nhát",
+      "description": "Một loài chim nhỏ, lông rằn, vàng nâu, mỏ dài nhọn, bay rất nhanh và xa; thường kiếm mồi trong các ruộng ít nước ban ngày và kêu ban đêm. Người dân quê thường bắt chim mỏ nhát làm món nướng.",
+      "audio": "/audio/mo-nhat0.mp3"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "class": "23de-giun",
+      "img": "/img/birds/de-giun.jpeg",
+      "name": "Dẽ giun",
+      "description": "Dẽ giun là tên gọi thông thường trong tiếng Việt để chỉ gần 20 loài chim lội nước rất giống nhau trong 3 chi của họ Dẽ (Scolopacidae). Chúng có đặc trưng là mỏ rất thanh mảnh. Các loài dẽ giun trong chi Gallinago có phân bố gần như rộng khắp toàn cầu, còn dẽ giun nhỏ (Lymnocryptes) chỉ có ở châu Á và châu Âu còn các loài dẽ giun trong chi Coenocorypha chỉ có ở khu vực New Zealand. Dẽ giun trong họ Scolopacidae thuộc về hoặc là các chi nhỏ Coenocorypha (dẽ giun New Zealand) và Lymnocryptes, hay thuộc về chi chứa khoảng 15-16 loài dẽ giun điển hình của chi Gallinago. Chi này có họ hàng gần với dẽ gà (Scopolax spp.), trong khi hai chi nhỏ kia là đại diện của sự rẽ nhánh sớm hơn trong nhánh dẽ giun/dẽ gà. Nguồn thức ăn chủ yếu của chúng là các động vật không xương sống trong bùn với cách mổ bằng mỏ dài như máy khâu.",
+      "audio": "/audio/de-giun0.mp3"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "class": "24khuyen",
+      "img": "/img/birds/khuyen.jpeg",
+      "name": "Khuyên",
+      "description": "Chim Vành Khuyên có tên khoa học là Zosteropidae, là loài chim thuộc bộ Sẻ. Đây là loài chim chỉ thích sống tại những nơi có khí hậu nhiệt đới ấm áp thuộc vùng châu Phi, Nam Á như Úc hoặc New Zealand, một số xuất hiện ở khu vực Đông Nam Á, trong đó có Việt Nam. Chim Vành Khuyên có ngoại hình vô cùng nhỏ nhắn, đáng yêu với cái mỏ vàng, bộ lông màu xanh hoặc màu vàng, ngoài ra chúng có một dải lông màu trắng hình tròn ở ngay mắt rất dễ nhận biết.",
+      "audio": "/audio/khuyen0.mp3"
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "class": "25bim-bip",
+      "img": "/img/birds/bim-bip.jpeg",
+      "name": "Bìm bịp",
+      "description": "Chim bìm bịp có tên khoa học là Centropus sinensis, là loài chim đặc biệt nhạy cảm với môi trường sống, có thân mình dài, mỏ nhọn, mắt đỏ, đuôi dài. Bìm bịp là loài chim định cư, thường phân bố ở các vùng đồng bằng, trung du và miền núi có độ cao từ 600 đến 800 mét. Cái tên bìm bịp xuất phát từ tiếng kêu của chúng, “bìm bịp”. Có khoảng 30 loài bìm bịp khác nhau. Bìm bịp không phải là loài chim đẻ trứng nhờ. Bìm bịp có hai loài, loài bìm bịp lớn có tên khoa học là Centropus sinensis Stephen, loài bìm bịp nhỏ có tên khoa học là C.benghalensis Gmelin. Cả hai loài đều có thân mình dài, đầu tròn múp, mỏ to nhọn, mắt tròn, màu đỏ, đuôi dài hơn cánh. Chân có 4 ngón, 2 trước và 2 sau, móng dài và sắc. Bộ lông bìm bịp có màu đen huyền, trừ hai cánh có màu nâu đỏ, đầu các lông cánh có màu sẫm hơn.",
+      "audio": "/audio/bim-bip0.mp3"
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "class": "26chao-mao",
+      "img": "/img/birds/chao-mao.jpeg",
+      "name": "Chào mào",
+      "description": "Chào mào (Pycnonotus jocosus) là một loài chim thuộc bộ Sẻ phân bố ở châu Á. Nó là một thành viên của họ Chào mào. Nó là một loài động vật ăn quả thường trú được tìm thấy chủ yếu ở châu Á nhiệt đới. Nó đã được đưa bởi con người vào nhiều khu vực nhiệt đới trên thế giới, nơi các quần thể đã tự hình thành. Nó ăn trái cây và côn trùng nhỏ. Chúng dễ thấy đậu trên cây và kêu to ba hoặc bốn nốt. Chúng rất phổ biến trong rừng đồi và vườn đô thị trong phạm vi của chúng. Chào mào có một cái mào dễ nhận biết, hai má trắng và phía trên mảng trắng là màu đỏ do đó chúng có tên tiếng Anh là râu đỏ (red-whiskered). Tại Việt nam, tùy theo vùng miền mà chúng có tên gọi khác nhau: chóp mào, hoành hoạch mồng, chóp mũ đỏ, đít đỏ... nhưng tên thông dụng nhất vẫn là chào mào. Chào mào có chiều dài khoảng 20 cm. Nó có phần trên màu nâu và phần dưới màu trắng với hai bên sườn bóng và một cái cựa sẫm màu chạy trên bầu ngực ngang vai. Nó có mào đen nhọn cao, mặt đỏ và đường viền đen mỏng. Đuôi dài và có màu nâu với các đầu lông màu trắng, nhưng vùng lỗ thông hơi có màu đỏ. Con non thiếu mảng đỏ phía sau mắt và vùng lỗ thông hơi có màu cam đỏ. Tiếng gọi lớn và gợi nhiều sức gợi là một tiếng kink-a-joo sắc nét (còn được phiên âm là pettigrew hoặc kick-pettigrew hoặc rất vui được gặp bạn) và bài hót là một cuộc tán gẫu mắng mỏ. Chúng thường được nghe nhiều hơn là được nhìn thấy, nhưng chúng thường dễ thấy đậu vào buổi sáng khi chúng kêu từ ngọn cây. Tuổi thọ khoảng 11 năm.",
+      "audio": "/audio/chao-mao0.mp3"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "class": "27hut-mat",
+      "img": "/img/birds/hut-mat.jpeg",
+      "name": "Hút mật",
+      "description": "Họ Hút mật (danh pháp khoa học: Nectariniidae), là một họ trong bộ Sẻ (Passeriformes) chứa các loài chim nhỏ. Tổng cộng đã biết 132 loài trong 15 chi. Họ này chứa các loài chim có tên gọi chung trong tiếng Việt là hút mật, bắp chuối. Họ phân bố rộng khắp tại châu Phi, miền nam châu Á và có cả ở miền bắc Australia. Phần lớn các loài hút mật có thức ăn là mật hoa, mặc dù chúng cũng ăn cả sâu bọ, đặc biệt là khi nuôi chim non. Quả cũng là một phần thức ăn của một số loài. Chúng bay nhanh và thẳng bằng hai cánh ngắn. Chim hút mật có các bản sao tương tự trong 2 nhóm có mối quan hệ họ hàng rất xa: chim ruồi ở châu Mỹ và ăn mật tại Australia. Sự tương tự bề ngoài chỉ là do tiến hóa hội tụ vì kiểu sống tương tự với thức ăn là mật hoa. Một vài loài hút mật có thể lấy mật hoa trong khi hai cánh vẫn vỗ và lơ lửng như chim ruồi, nhưng thông thường thì chúng đậu để ăn. Các loài chim trong họ này có khối lượng từ 5 gam như ở hút mật bụng đen tới 30 gam như ở bắp chuối bụng vàng. Giống như chim ruồi, hút mật có dị hình giới tính mạnh, với chim trống thường có bộ lông sáng màu ánh kim. Ngoài ra, đuôi của chim trống thuộc nhiều loài là dài hơn, và về tổng thể thì chim trống to lớn hơn. Chim hút mật có mỏ cong xuống phía dưới, dài và mỏng, lưỡi hình ống với chóp dạng chổi, cả hai đều là sự thích nghi cho cuộc sống ăn mật hoa. Các loài bắp chuối của chi Arachnothera có bề ngoài khác biệt với các thành viên khác của họ. Chúng thông thường lớn hơn các loài chim hút mật khác, với bộ lông màu nâu xám xịt và mỏ to cong xuống dưới. Các loài hút mật sống tại các cao độ lớn sẽ rơi vào trạng thái lịm đi khi chúng đậu để nghỉ đêm, hạ thấp nhiệt độ cơ thể và đi vào trạng thái ít hoạt động, phản ứng chậm.",
+      "audio": "/audio/hut-mat0.mp3"
+    },
+    {
+      "class": "28cheo-beo",
+      "img": "/img/birds/cheo-beo.jpeg",
+      "name": "Chèo bẻo",
+      "description": "Chèo bẻo có tên khoa học là Dicrurus macrocercus, một loài chim thuộc họ Dicruridae. Loài chim này được phân bổ tại nhiều quốc gia như Ấn Độ, Sri Lanka, Iran,… Tại Việt Nam, chim chèo bẻo được tìm thấy ở mọi tỉnh thành trên cả nước. Chim chèo bẻo có bộ lông màu đen mượt mà và óng ả. Chúng có một chiếc đuôi dài rất đẹp. Chiếc đuôi này sẽ có hai sợi lông dài ra khi chèo bẻo trưởng thành, điều này khiến ngoại hình của chúng càng trở nên bắt mắt và độc đáo. Chèo bẻo có kích thước khá nhỏ bé. Một con chèo bẻo trưởng thành có chiều dài cơ thể khoảng 28cm.",
+      "audio": "/audio/cheo-beo0.mp3"
+    },
+    {
+      "class": "29cut",
+      "img": "/img/birds/cut.jpeg",
+      "name": "Cút",
+      "description": "Chim cút, còn gọi là chim cay, là một tên gọi chung cho một số chi chim có kích thước trung bình trong họ Trĩ (Phasianidae), hoặc trong họ Odontophoridae (chim cút Tân thế giới) cùng bộ. Bài này chỉ nói về các loài sinh sống trong khu vực Cựu Thế giới thuộc họ Trĩ mà thôi. Các loài chim cút Tân thế giới không có quan hệ họ hàng gần, nhưng chúng cũng được gọi là chim cút do bề ngoài và các hành vi tập tính khá giống với các loài chim cút Cựu thế giới. Các loài cun cút Cựu thế giới đôi khi cũng được gọi là chim cút, nhưng chúng thuộc về họ Turnicidae và chúng không phải là chim cút thật sự, cũng như chưa thấy ở đâu nuôi chúng với mục đích lấy thịt hay trứng ở quy mô thương mại như các loài chim cút thực sự. Chim cút là các loài chim nhỏ, mập mạp sống trên đất liền. Chúng là các loài chim ăn hạt, nhưng cũng ăn cả sâu bọ và các con mồi nhỏ tương tự. Chúng làm tổ trên mặt đất. Một số loài chim cút được nuôi với số lượng lớn trong các trang trại. Chúng bao gồm cút Nhật Bản, cũng được biết đến như là chim cút coturnix, được nuôi giữ chủ yếu để sản xuất trứng và được bán rộng khắp thế giới.",
+      "audio": "/audio/cut0.mp3"
+    },
+    {
+      "class": "30sau",
+      "img": "/img/birds/sau.jpeg",
+      "name": "Sâu",
+      "description": "Chim Sâu có tên khoa học là Dicaeidae, là một họ trong bộ Sẻ (Passeriformes) thuộc ngành động vật có dây sống. Họ này bao gồm 2 chi là Prionochilus và Dicaeum, với tổng cộng 44-48 loài. Chúng phân bố ở các vùng nhiệt đới miền nam châu Á và Australasia, từ Ấn Độ kéo dài về phía đông tới Philippines và phía nam tới Australia. Tổng thể hình dáng của chim Sâu trông khá tròn và mập mạp. Mặc dù có kích thước nhỏ nhưng chim sâu rất nhanh nhẹn, đôi chân vững chắc và đôi mắt tinh nhanh giúp chúng di chuyển dễ dàng và linh hoạt khi chuyền từ cành cây này sang cành cây khác.",
+      "audio": "/audio/sau0.mp3"
+    },
+    {
+      "class": "31cum-num",
+      "img": "/img/birds/cum-num.jpeg",
+      "name": "Cúm núm",
+      "description": "Cúm núm là loài chim sống theo cặp, và thường chỉ có một đôi duy nhất gồm con trống và mái đi với nhau. Mặc dù có tên gọi là gà nước nhưng chúng lại sống chủ yếu ở nơi khô ráo, trên cạn dù vẫn có thể bơi được. Chính vì thế, khi mùa nước nổi tràn khắp các bưng đồng, cúm núm thường di chuyển lên những bờ ruộng, bãi đất cao hơn để ngủ nghỉ và đẻ trứng. Chúng rất giỏi giấu mình trong những lùm cây gốc rạ nên rất khó phát hiện. Tuy nhiên, đó lại chính nhược điểm của loài vật này, cũng như tên gọi của chúng khi thường xuyên phát ra tiếng kêu nghe trầm khàn khàn như từ “núm”, “núm”, “cúm”…",
+      "audio": "/audio/cum-num0.mp3"
+    },
+    {
+      "class": "32thanh-lam",
+      "img": "/img/birds/thanh-lam.jpeg",
+      "name": "Thanh lam",
+      "description": "Chim Thanh Lam- còn gọi là chim Lam (Asian Fairy Bluebird)- có tên khoa học là Irena puella (Latham, 1790) thuộc họ Chim Lam Ireidae. Chim có kích thước trung bình dài khoảng 25cm. Chim trống trải dài từ đầu xuống đuôi có màu xanh lam óng ánh rất đẹp. Phần mặt, bung có màu đen ( chim mái màu lam nhạt hơn chim trống). Chim sống trong rừng từ Miền đông Nam bộ ra tận phía Bắc.",
+      "audio": "/audio/thanh-lam0.mp3"
+    },
+    {
+      "class": "33bo-cau",
+      "img": "/img/birds/bo-cau.jpeg",
+      "name": "Bồ câu",
+      "description": "Chim Bồ Câu có tên khoa học là Columba livia domestica, là loài có số lượng lớn nhất trong các loài chim trong bộ Bồ Câu (Columbiformes). Chúng vẫn thường được người dân gọi dưới nhiều cái tên gần gũi như chim Cu đất, chim gầm ghì, chim cưu,... Chim Bồ Câu là loài vật vô cùng phổ biến và gần gũi với con người, thường được dùng làm chim cảnh, chim đưa thư hoặc làm món ăn. Chim Bồ Câu có vẻ ngoài rất dễ nhận biết với cái cổ dài, đầu dạng hình thoi, có thể xoay chuyển nhiều góc độ khác nhau. Chúng không có màu lông cố định mà thường sẽ xoay quanh một số màu sắc chính như màu nâu, xanh nhạt, trắng, đen,... Một số loài còn có bộ lông dị biệt, khiến chúng càng trở nên độc đáo và đẹp mắt khi nuôi. Thân người chim Bồ Câu có dạng hình thoi, điều này giúp chúng có thể bay nhanh và dễ dàng trên bầu trời do sức cản không khí bị giảm thiểu tối đa. Toàn thân người bao phủ bởi lớp lông vũ gồm hai lớp: Lớp lông tơ ôm sát người giúp giữ ấm cơ thể và lớp lông vũ mỏng bên ngoài nhẹ và xốp, giúp bay lượn dễ dàng. Phần chân có 3 ngón nằm phía trước và 1 ngón phía sau, tất cả đều có vuốt giúp chúng có thể đậu, bám dễ dàng. Mỏ sừng khá cứng và không có răng bên trong.",
+      "audio": "/audio/bo-cau0.mp3"
+    },
+    {
+      "class": "34choc-quach",
+      "img": "/img/birds/choc-quach.jpeg",
+      "name": "Chóc quạch",
+      "description": "Chóc quạch là một trong những loài chim thuộc họ chào mào, chúng biết hót và hót rất hay. Loài này được tìm thấy chủ yếu ở vùng châu Phi và nhiệt đới châu Á, tại Việt Nam chim chóc quạch được tìm thấy nhiều ở các rừng quốc gia, đặc biệt là rừng quốc gia Nam Cát Tiên. là một loài chim thuộc họ chào mào, do đó kích thước bên ngoài của loài chim này khá nhỏ. Khi trưởng thành chúng chỉ to hơn con chim sẻ một xíu, tuy nhiên màu sắc của chúng nổi bật hơn chim sẻ rất nhiều. Chóc quạch là một loài chim thuộc họ chào mào, do đó kích thước bên ngoài của loài chim này khá nhỏ. Khi trưởng thành chúng chỉ to hơn con chim sẻ một xíu, tuy nhiên màu sắc của chúng nổi bật hơn chim sẻ rất nhiều.",
+      "audio": "/audio/choc-quach0.mp3"
+    },
+    {
+      "class": "35que-lam",
+      "img": "/img/birds/que-lam.jpeg",
+      "name": "Quế lâm",
+      "description": "Trong những bức tranh nổi tiếng của Trung Quốc, Quế Lâm hiện lên với vẻ đẹp thanh thoát, hài hoà và rất thi vị. Tuy có ngoại hình nhỏ bé nhưng loài vật này thích sống ở những khu vực có địa hình hiểm trở như: dãy Himalaya, cao nguyên Tây Tạng… Loài này được tìm thấy ở phía Nam Trung Quốc nên cái tên Quý Lâm cũng từ đây mà ra. Một vài nơi như Nepal, Ấn Độ, Nhật Bản cũng xuất hiện những chú chim mỏ đỏ hiếm hoi. Ở Việt Nam, giống này được gọi với cái tên là Kim Oanh, tên khoa học là Leiothrix lutea Stresemann. Người ta tìm thấy chúng ở vùng núi Tây Bắc, chủ yếu là ở các đỉnh núi cao tại Lào Cai.",
+      "audio": "/audio/que-lam0.mp3"
+    },
+    {
+      "class": "36ngu-sac",
+      "img": "/img/birds/ngu-sac.jpeg",
+      "name": "Ngũ sắc",
+      "description": "Chim ngũ sắc là loài chim có hình dáng vô cùng bắt mắt, sở dĩ chúng được gọi là chim ngũ sắc chính là vì bộ lông của chúng có 5 màu sắc lông. Chúng được mệnh danh là loài chim vô cùng chung tình đi đâu cũng có đôi có cặp, tương tự như loài bồ câu trắng. Chim ngũ sắc còn có cái tên khác là Chim tương tư mỏ đỏ hay còn gọi tắt là tương tư ngũ sắc. Thường ngày chim ngũ sắc thường phân chia khu vực sinh sống rất rõ ràng, chỉ khi vào mùa giao phối thì chúng mới tập trung lại. Cả chim ngũ sắc đực và cái đều khoác trên mình những bộ lông sặc sỡ nên rất khó nhận ra đâu là chim trống đâu là chim mái. Về hình dáng chim ngũ sắc chỉ to hơn chim sẻ một ít. Tùy thuộc vào mỗi khu vực sinh sống mà chim ngũ sắc lại có màu sắc lông khác nhau.",
+      "audio": "/audio/ngu-sac0.mp3"
+    },
+    {
+      "class": "37hoanh-hoach",
+      "img": "/img/birds/hoanh-hoach.jpeg",
+      "name": "Hoành hoạch",
+      "description": "Hoành hoạch là một trong những loài chim thuộc họ chào mào, chúng biết hót và hót rất hay. Loài này được tìm thấy chủ yếu ở vùng châu Phi và nhiệt đới châu Á, tại Việt Nam chim Hoành hoạch được tìm thấy nhiều ở các rừng quốc gia, đặc biệt là rừng quốc gia Nam Cát Tiên. Hoành hoạch là một loài chim thuộc họ chào mào, do đó kích thước bên ngoài của loài chim này khá nhỏ. Khi trưởng thành chúng chỉ to hơn con chim sẻ một xíu, tuy nhiên màu sắc của chúng nổi bật hơn chim sẻ rất nhiều. Màu lông đặc trưng của chim Hoành hoạch xám, đen, trắng và vàng. Khi phát triển bộ lông của chúng sẽ có màu vàng óng ở phần sau lông cánh, đuôi, lông hậu môn, dưới cằm và trên chỏm đầu. Màu xám sẽ pha với màu vàng ở phần lưng, cánh. Còn màu trắng sẽ có nhiều ở phần bụng của chim. Chúng có một cái mỏ khá nhỏ và nhọn.",
+      "audio": "/audio/hoanh-hoach0.mp3"
+    },
+    {
+      "class": "38en",
+      "img": "/img/birds/en.jpeg",
+      "name": "Én",
+      "description": "Chim én là loài chim có kích thước nhỏ bé, dài khoảng 12 – 24cm. Cân nặng trung bình của một chú chim én dao động khoảng 40-180g. Đôi chân chúng thấp lùn nhưng cơ thể chắc chắn, mập mạp, tròn trịa rất dễ thương. Đầu chim nhỏ, tròn, mỏ ngắn, mềm và nhọn. Miệng chúng khá rộng, đôi mắt nhỏ, tròn và đen nhánh. Lưng chim thuôn nhỏ, cánh và đuôi dài. Đuôi chim xẻ sâu thành hình chữ V với hai đầu nhọn hoắt. Điều này tạo cho dáng bay của chim hết sức thanh thoát, đẹp mắt, cùng tốc độ bay cực nhanh. Những con én cái sẽ có đuôi dài hơn con đực. Mỗi bàn chân chim én được chia thành 3 ngón nhỏ có móng sắc nhọn, giúp chúng dễ dàng bám vào các cành cây, dây điện, ăng-ten… Chim có lớp lông dày. Bên trong là lớp lông mềm màu trắng, bên ngoài lông cứng cáp với nhiều màu khác nhau. Phần đầu, lưng, cánh và đuôi của chúng thường có màu xanh cửu long, đen và có cả những sọc trắng. Phần dưới yết hầu có màu gạch đỏ. Phần ngực và bụng của chim én có màu da cam. Tuy nhiên cũng có loài có đầu màu nâu, ngực và bụng màu trắng…",
+      "audio": "/audio/en0.mp3"
+    },
+    {
+      "class": "39thanh-tuoc",
+      "img": "/img/birds/thanh-tuoc.jpeg",
+      "name": "Thanh tước",
+      "description": "Chim thanh tước có nguồn gốc và phát hiện tại đất nước Ceylan (Tích Lan) xa xôi. Tên khoa học là Chorropsio Aurifont. Dần dần loài chim này đã được phổ biến trên khắp thế giới và trong đó bao gồm cả Việt Nam. Vì là một loài chim rất nhát người nên chúng thường sống ở những nơi có nhiều cây cối, có nhiều hoa và trái cây. Ở nước ta chúng thường xuất phổ biến ở Lâm Đồng, Đồng Nai, Tây Nguyên, Bà Rịa – Vũng Tàu và những vùng Đông Nam Bộ. Như tên gọi của chúng, chim thanh tước sở hữu bộ lông màu xanh lá cây pha vàng bao phủ toàn thân chúng, phần cổ ở dưới mỏ và phần ức có màu lông màu đen hoặc màu tối. Hai bên mép của chim có vệt màu xanh dương, có con còn sở hữu vệt xanh ở trên cánh và đuôi rất đẹp. Chim có thân hình thon gọn, nhỏ nhắn như chim Chích Chòe, Chào Mào,… kích thước rơi vào khoảng 10cm đến 15cm. Đầu chim nhỏ có màu vàng và rất siêng hót. phần lông trên đầu nơi tiếp giáp với mỏ có màu vàng cam. Vùng dưới cổ được bao phủ bởi bộ lông màu đen và hai bên mép dưới mắt có vệt dài màu xanh dương là điểm nhấn đặc biệt của chim Thanh Tước. Thêm nữa là mỗi đầu cánh có vệt lông màu xanh biếc rất đẹp. Có những con có luôn vệt lông màu xanh biết ở đuôi nhìn rất đẹp. Chim thanh tước có tiếng hót không hay bằng các loài chim khác, tiếng hót khá trong nhưng không trầm. Tuy nhiên loài chim này cũng có khả năng bắt chước tiếng kêu của các loài động vật khác như: tiếng gà con, tiếng chim chóc quạch và chúng rất thích và hay siêng hót. Mỗi sáng chim loài chim thanh tước có thể hót từ 2 đến 3 giờ đồng hồ và sau đó thì chúng hót lai rai đến hết ngày.",
+      "audio": "/audio/thanh-tuoc0.mp3"
+    },
+    {
+      "class": "40vac",
+      "img": "/img/birds/vac.jpeg",
+      "name": "Vạc",
+      "description": "Chim vạc là một loài thuộc họ chim diệc, có danh pháp khoa học là Nycticorax nycticorax. Chúng có nhiều đặc thù thân hình khá giống diệc và cò những vẫn rất dễ để phân biệt được. Một con khi trưởng thành trung bình sẽ nặng khoảng chừng 800 – 900 gam và dài khoảng chừng 64 – 89 cm. Khác với cò, nếu như cò cao nhờ đôi chân dài thì vạc cao do chúng có một chiếc cổ thẳng. Cổ của vạc rất cao trong lúc đó chân của chúng thì lại rất ngắn, chỉ được khoảng chừng vài tấc.",
+      "audio": "/audio/vac0.mp3"
+    },
+    {
+      "class": "41chia-voi",
+      "img": "/img/birds/chia-voi.jpeg",
+      "name": "Chìa vôi",
+      "description": "Chim chìa vôi có tên khoa học tiếng anh là Motacilla alba, thuộc họ chim Motacilidae (họ chim chìa vôi). Giống chim này là loài chim bản địa của vùng lục địa châu Âu, châu Á và khu vực Bắc Phi. Ngày nay, chúng được nhân rộng ra rất nhiều nơi ở trên thế giới. Chim chìa vôi là loài chim có kích cỡ trung bình, hình dáng uyển chuyển và thanh mảnh. Loài chim này khi trưởng thành thường có chiều dài cơ thể khoảng 15 – 21cm. Bộ lông của chim chìa vôi thường có 2 màu đen và trắng. Tùy thuộc vào từng dòng, màu sắc lông của chúng sẽ có sự sắp xếp khác nhau. Lông đầu, cổ, ngực và bụng là lớp lông vũ rất mềm và mượt. Lớp lông lưng, cánh và đuôi rất dài, cứng và bóng. Lớp lông này của chúng có phủ 1 lớp dầu bóng – điều này giúp chúng khi đi mưa không bị nước ngấm vào bên trong cơ thể. Sở dĩ loài chim này được yêu thích là vì ngoại hình thanh mảnh, nhẹ nhàng và vô cùng uyển chuyển.",
+      "audio": "/audio/chia-voi0.mp3"
+    },
+    {
+      "class": "42mat-xeo",
+      "img": "/img/birds/mat-xeo.jpeg",
+      "name": "Mắt xéo",
+      "description": "Chim mắt xéo Thuộc họ thủy cầm, hầu hết các loài chim này sống ở các vùng đầm lầy như đồng cỏ, ruộng, ao, hồ, đầm… Chúng sống thành từng cặp trong quá trình sinh sản. Chúng ăn các động vật không xương sống nhỏ và cá, tôm, giun đất ... Chúng làm tổ ở những bãi cỏ rậm rạp, đẻ từ 2 đến 6 quả trứng.",
+      "audio": "/audio/mat-xeo0.mp3"
+    },
+    {
+      "class": "43mat-do",
+      "img": "/img/birds/mat-do.jpeg",
+      "name": "Mắt đỏ",
+      "description": "Chim mắt đỏ thuộc họ gà nước, kích thước cơ thể 27 cm, trọng lượng 0,3-0,5 kg, dễ dàng nhận biết qua màu sắc cơ thể: nâu đỏ, mắt đỏ, chân đỏ có sọc đen dưới ức. Chúng sống ở đầm lầy, đồng ruộng, ao, hồ, sông suối… Chúng đẻ từ 3 - 6 trứng, sống thành từng cặp vào mùa giao phối. Loài chim này rất nhạy với âm thanh, miễn nghe tiếng kêu ở khu vực chúng sống, thì nó sẽ liền tìm đến.",
+      "audio": "/audio/mat-do0.mp3"
+    },
+    {
+      "class": "44sam-cam",
+      "img": "/img/birds/sam-cam.jpeg",
+      "name": "Sâm cầm",
+      "description": "Sâm cầm (danh pháp hai phần: Fulica atra) là một loài chim thuộc họ Gà nước (Rallidae). Đây là loài chim có đầu và cổ màu đen tuyền, mắt nâu đỏ, mỏ nhọn dài và miếng sừng sau mỏ có màu trắng, trọng lượng trung bình 400-500gr nhưng cũng có con nặng 700gr. Sâm cầm là giống chim di cư, hằng năm nó bay dọc Trái Đất. Sâm cầm sống bằng thực vật tìm thấy dưới đáy ao hồ. Sâm cầm sinh sản tại nhiều vùng hồ và đầm nước ngọt ở Cựu Thế giới. Khi thời tiết băng giá vào mùa đông, sân cầm di cư về phía Nam và phía Tây.",
+      "audio": "/audio/sam-cam0.mp3"
+    },
+    {
+      "class": "45cu-gay",
+      "img": "/img/birds/cu-gay.jpeg",
+      "name": "Cu gáy",
+      "description": "Chim cu gáy thuộc họ bồ câu, tên khoa học là Stêp- topelia Chinensis, sống hoang dã ở phía Nam Trung Quốc và các nước Đông Nam Á. Ở Việt Nam chim sống ven rừng, các vùng đồng bằng từ Bắc đến Nam, thức ăn chủ yếu là các hạt thưc vật: Lúa, ngô, kê, đậu, hạt cỏ dại.  Nhìn bề ngoài chúng rất hiền lành, phúc hậu; đầu nhỏ, mỏ dài, chân son cườm biếc, nhất là có bộ mã nâu sồng như bậc tu hành. Chim cu gáy có tốc độ bay cực nhanh nhờ có ngoại hình thon thả, ngực nở, đôi sải cánh dài vắt chéo dưới lưng, đôi mắt chim nhỏ như hai hạt đỗ hơi ướt, mi mắt dầy, như vậy mới chịu được gió khi bay cao. ",
+      "audio": "/audio/cu-gay0.mp3"
+    },
+    {
+      "class": "46ket",
+      "img": "/img/birds/ket.jpeg",
+      "name": "Vẹt (Két)",
+      "description": "Chim vẹt hay còn gọi là chim két, chim kơ tia. Vẹt kiểng hay vẹt cảnh, vẹt nuôi là thuật ngữ chỉ về những con vẹt được nuôi nấng như vật cưng để làm bầu bạn, giải trí của con người. Dòng chim này không chỉ có tiếng hót líu lo, chúng còn có khả năng bắt chước tiếng người rất giỏi. Hiện nay có khoảng gần 400 loài vẹt đang sinh sống trên toàn thế giới. Các loại chim vẹt đẹp: chim Vẹt xanh, chim Vẹt Yến Phụng, chim Vẹt lovebird, chim Vẹt Mẫu Đơn, chim Vẹt đuôi dài, chim Vẹt Hồng Kong, chim Vẹt xích, chim Vẹt mỏ đỏ,... Theo như một vài nghiên cứu, con vẹt xuất hiện cách đây khoảng 59 triệu năm trước. Những chú chim này được tìm thấy nhiều nhất ở vùng đất Nam Mỹ và Australia. Loài chim này có tên tiếng anh Parrot, tên khoa học Psittaciformes. Chú vẹt đầu tiên được miêu tả bởi nhà động vật học Wagler vào năm 1830. Hiện nay có 393 loài vẹt và 92 chi đang được tìm thấy ở trên thế giới.",
+      "audio": "/audio/ket0.mp3"
+    },
+    {
+      "class": "47trao-trao",
+      "img": "/img/birds/trao-trao.jpeg",
+      "name": "Trao trảo",
+      "description": "Chim trao trảo bề ngoài có màu lông xám tương tự như chim sẻ, đầu phủ 2 màu trắng và xám, có đường màu xám chạy dài từ mỏ đến phía sau đầu. Mắt phủ viền đen. Phía dưới đuôi phủ lông màu vàng. Trống mái phân biệt không hề dễ mà cần phải quan sát kỹ mới phân biệt được. Con trống có thân hình to con hơn con mái và quan trọng là có vệt đen ở đầu đậm màu hơn con mái và con trống hay kêu nhiều giọng hơn con mái.",
+      "audio": "/audio/trao-trao0.mp3"
+    },
+    {
+      "class": "48xanh-tim",
+      "img": "/img/birds/xanh-tim.jpeg",
+      "name": "Xanh tím",
+      "description": "Chim xanh tím trống có lớp lông màu xanh biếc trên lưng, cổ có màu nâu ánh kim. Hai bên má có màu tím và bụng màu vàng nhìn rất đẹp. Chim mái có lưng màu nâu, cổ nâu không có ánh kim và lông bụng màu vàng nhìn không được đẹp bằng chim trống.",
+      "audio": "/audio/xanh-tim0.mp3"
     }
   ]
 }

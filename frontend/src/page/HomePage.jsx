@@ -11,15 +11,17 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const HomePage = () => {
-  const [landingPageData, setLandingPageData] = useState({});
+  const [header, setHeader] = useState({});
+  const [birds, setBirds] = useState([]);
   useEffect(() => {
-    setLandingPageData(JsonData);
+    setHeader(JsonData.header);
+    setBirds(JsonData.birds.slice(0, 8));
   }, []);
 
   return (
     <div>
-      <Header data={landingPageData.Header} />
-      <BirdList data={landingPageData.Team} />
+      <Header data={header} />
+      <BirdList data={birds} />
     </div>
   );
 };

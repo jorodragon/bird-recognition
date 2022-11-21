@@ -1,5 +1,3 @@
-from django.contrib.auth import authenticate
-from django.contrib.auth.hashers import make_password
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404
 
@@ -8,6 +6,12 @@ from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIV
 
 from bird.models import Bird
 from bird.serializers import BirdSerializer
+
+from .core import (create_spectrogram, predict, create_result)
+import os
+
+THIS_DIR = os.path.dirname(os.path.realpath(__file__))
+model = os.path.join(THIS_DIR, 'model', 'efficientnet.h5')
 
 
 class ListCreateBirdView(ListCreateAPIView):
@@ -58,3 +62,46 @@ class UpdateDeleteBirdView(RetrieveUpdateDestroyAPIView):
         return JsonResponse({
             'message': 'Delete bird successful!'
         }, status=status.HTTP_200_OK)
+
+
+ALLOWED_EXTENSIONS = {'wav'}
+
+
+def allowed_file(filename):
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+
+class BirdPrediction(ListCreateAPIView):
+    model = Bird
+    serializer_class = BirdSerializer
+
+    def create(self, request, *args, **kwargs):
+        file = None
+        file = request.FILES['file']
+
+        if not file or file.name == '':
+            return JsonResponse({
+                'message': 'No selected file'
+            }, status=status.HTTP_400_BAD_REQUEST)
+
+        if file and allowed_file(file.name):
+            image, fig = create_spectrogram(file)
+            pred = predict(model, image)
+            result = create_result(pred)
+            print(result)
+            if result['probability'] > 74:
+                return JsonResponse({
+                    'message': 'Success',
+                    'bird': result['bird'],
+                    'probability': result['probability'],
+                }, status=status.HTTP_200_OK)
+            else:
+                return JsonResponse({
+                    'message': 'Success',
+                    'bird': 'Not a bird',
+                }, status=status.HTTP_200_OK)
+
+        return JsonResponse({
+            'message': 'Wrong file format'
+        }, status=status.HTTP_400_BAD_REQUEST)

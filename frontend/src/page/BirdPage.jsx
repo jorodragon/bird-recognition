@@ -11,11 +11,17 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const BirdPage = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  const [isShowMore, setIsShowMore] = useState(false);
+
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
 
-  return <BirdList data={landingPageData.Team} hasShowMore={true} />;
+  const handleClickShowMore = () => {
+    
+  }
+
+  return <BirdList data={landingPageData.birds} isShowMore={isShowMore} hasShowMore={true} handleClickShowMore={() => {}}/>;
 };
 
 export default BirdPage;

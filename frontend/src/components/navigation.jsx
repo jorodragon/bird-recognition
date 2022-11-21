@@ -32,7 +32,7 @@ export const Navigation = (props) => {
                 to="explore"
                 className={({ isActive }) => (isActive ? "active" : undefined) + ' noHover'}
               >
-                Explore
+                Khám phá
               </NavLink>
             </li>
           </ul>
