@@ -1,0 +1,31 @@
+Chương 1. Tổng quan
+    - Trình bày tổng quan bài toán nhận diện tiếng chim
+    - Các giải pháp và cách tiếp cận
+        + Xử lý dựa trên đặc tính âm thanh
+            - Trích xuất đặc trưng dựa vào MFCC, sau đó nhận diện bằng:
+                + KNN
+                + HMM (Makov ẩn)
+        + Xử lý dựa trên hình ảnh phổ âm thanh
+            - Chuyển sang tần số Mel thu được ảnh phổ, sau đó sử dụng nhận diện bằng hình ảnh
+Chương 2. Tìm hiểu về phương pháp học sâu và bài toán nhận dạng tiếng chim
+    - Các phương pháp học sâu áp dụng cho bài toán
+        + Xception
+        + MobileNets
+        + EfficientNets
+    - Bài toán nhận dạng tiếng chim:
+        + Crawl data: tiengdong.vn
+        + Khử nhiễu
+        + Chia nhỏ thành các đoạn nhỏ dài 5s
+        + Chuyển sang dạng ảnh phổ
+        + Chia thành 3 tập (train, validation, test) theo tỉ lệ (8:1:1)
+        + Train model theo 3 phương pháp trên
+Chương 3. Xây dựng ứng dụng nhận dạng tiếng chim dựa vào phương pháp học sâu
+    - Xây dựng ứng dụng nhận dạng tiếng chim bao gồm:
+        + Backend (Django): Viết API predict
+        + Frontend (ReactJS): Viết giao diện
+            - Danh sách loài chim
+            - Chi tiết loài chim
+            - Nhận diện loài chim
+Chương 4. Thực nghiệm và đánh giá
+    - Lấy kết quả dự đoán của 4 model với tập test
+    - Đánh giá
