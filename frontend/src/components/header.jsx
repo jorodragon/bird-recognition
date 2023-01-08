@@ -77,7 +77,7 @@ export const Header = (props) => {
                           marginBottom: 10,
                         }}
                       >
-                        Tải lên tệp WAV (tối đa 16 MB) để khám phá.
+                        Tải lên tệp MP3/WAV để khám phá.
                       </p>
                       <input
                         type="text"

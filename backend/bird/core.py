@@ -15,7 +15,8 @@ import tempfile
 import shutil
 from tensorflow.keras.preprocessing.image import load_img
 import noisereduce as no
-from efficientnet.keras import preprocess_input
+# from efficientnet.keras import preprocess_input
+from tensorflow.keras.applications.xception import Xception, preprocess_input
 
 matplotlib.use('Agg')
 
@@ -125,9 +126,13 @@ def create_spectrogram(file):
 
 def predict(model, image):
     """ makes prediction out of the spectrogram """
-    net = efn.EfficientNetB3(
-        include_top=False, weights="imagenet", input_tensor=None, input_shape=(224, 224, 3)
-    )
+    # net = efn.EfficientNetB3(
+    #     include_top=False, weights="imagenet", input_tensor=None, input_shape=(224, 224, 3)
+    # )
+    net = Xception(include_top=False,
+                   weights='imagenet',
+                   input_tensor=None,
+                   input_shape=(224, 224, 3))
     x = net.output
     x = Flatten()(x)
     x = Dropout(0.5)(x)
