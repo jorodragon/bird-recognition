@@ -23,7 +23,7 @@ async function crawl(url) {
 const run = async () => {
   for (let i = 1; i <= 16; i++) await crawl(`${baseUrl}/${i}`);
 
-  fs.writeFileSync('./urls.json', JSON.stringify(urls));
+  fs.writeFileSync('./full-urls.json', JSON.stringify(urls));
 
   console.log('Done');
 };
